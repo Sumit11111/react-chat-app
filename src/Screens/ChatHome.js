@@ -212,7 +212,7 @@ return (
 					margin: 2,
 					display: "flex",
 					flexDirection:
-					user?.uid == messages.messageUserId
+					user?.uid === messages.messageUserId
 						? "row-reverse"
 						: "row",
 				}}
@@ -222,9 +222,9 @@ return (
 					backgroundColor: "#BB8FCE",
 					padding: 6,
 					borderTopLeftRadius:
-						user?.uid == messages.messageUserId ? 10 : 0,
+						user?.uid === messages.messageUserId ? 10 : 0,
 					borderTopRightRadius:
-						user?.uid == messages.messageUserId ? 0 : 10,
+						user?.uid === messages.messageUserId ? 0 : 10,
 					borderBottomLeftRadius: 10,
 					borderBottomRightRadius: 10,
 					maxWidth: 400,
