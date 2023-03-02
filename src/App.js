@@ -11,9 +11,9 @@ return (
 	<BrowserRouter>
 		<Routes>
 		<Route exact path="/"
-			element={<SignUp />} />
-		<Route path="/Signin"
 			element={<SignIn />} />
+		<Route path="/Signup"
+			element={<SignUp />} />
 		<Route path="/chat-home/:receiverId"
 			element={<ChatHome />} />
 		</Routes>
